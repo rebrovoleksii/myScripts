@@ -1,7 +1,7 @@
 function StartAllMTServices
     {
     
-    Start-Service iisadmin /y
+    Start-Service iisadmin
     Start-Service activityservices
     Start-Service w3svc
     Start-Service msmq /y
